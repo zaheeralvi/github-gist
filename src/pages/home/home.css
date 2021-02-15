@@ -1,0 +1,17 @@
+.home-page{
+    padding-top: 50px;
+}
+.search-block{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.gistList {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.gistList::after {
+    content: "";
+    flex: auto;
+}
